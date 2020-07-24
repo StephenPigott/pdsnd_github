@@ -97,7 +97,7 @@ def get_filters():
 
     print('-'*40)
     return city, month, day
-
+#Inserting comment for version control refactoring section of GIT assignmnet
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
