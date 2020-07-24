@@ -21,7 +21,7 @@ def get_filters():
     print()
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while 1:
-        print('Hello what city would you like to explore?')
+        print('Hello what city would you like to explore today?')
         city = input('Chicago/ch, New York City/ny, or Washington/wa? ').lower()
         print()
         if city=='ch':
